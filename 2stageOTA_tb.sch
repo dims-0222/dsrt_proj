@@ -5,8 +5,6 @@ V {}
 S {}
 F {}
 E {}
-T {Nithin P
-https://www.linkedin.com/in/nithin-purushothama-70664727b/} 10 -910 0 0 0.4 0.4 {}
 N 580 -480 580 -380 {
 lab=#net1}
 N 830 -520 830 -380 {
