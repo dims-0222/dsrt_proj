@@ -54,6 +54,8 @@ N -920 -580 -860 -580 {lab=out}
 N -1350 -530 -1350 -490 {lab=ibias}
 N -1350 -540 -1350 -530 {lab=ibias}
 N -1420 -540 -1350 -540 {lab=ibias}
+N -940 -560 -920 -560 {lab=out}
+N -1000 -610 -1000 -560 {lab=#net2}
 C {sky130_fd_pr/pfet_01v8.sym} -1160 -730 0 0 {name=M1
 W=1.5
 L=1
@@ -166,10 +168,11 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} -970 -610 1 0 {name=C1 model=cap_mim_m3_1 W=15 L=15 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} -970 -610 1 0 {name=C1 model=cap_mim_m3_1 W=7.5 L=7.5 MF=2 spiceprefix=X}
 C {ipin.sym} -1420 -550 0 0 {name=p1 lab=ibias}
 C {ipin.sym} -1370 -610 0 0 {name=p2 lab=minus}
 C {ipin.sym} -1070 -610 0 1 {name=p3 lab=plus}
 C {iopin.sym} -1140 -820 0 0 {name=p4 lab=vdd}
 C {iopin.sym} -1160 -400 0 0 {name=p5 lab=vss}
 C {opin.sym} -860 -580 0 0 {name=p6 lab=out}
+C {sky130_fd_pr/cap_mim_m3_1.sym} -970 -560 1 0 {name=C2 model=cap_mim_m3_1 W=7.5 L=7.5 MF=2 spiceprefix=X}

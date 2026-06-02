@@ -1,0 +1,151 @@
+* NGSPICE file created from 2OTA.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_Z6Q36G B D S G VSUBS
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=1
+C0 D B 0.125f
+C1 S B 0.125f
+C2 G B 0.33037f
+C3 D S 0.08289f
+C4 D G 0.03749f
+C5 S G 0.03749f
+C6 S VSUBS 0.08679f
+C7 D VSUBS 0.08679f
+C8 G VSUBS 0.25845f
+C9 B VSUBS 1.58955f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_59R9RF B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=1
+C0 G S 0.03749f
+C1 D S 0.08289f
+C2 G D 0.03749f
+C3 S B 0.21204f
+C4 D B 0.21204f
+C5 G B 0.5785f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_GHSHTY B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=1
+C0 D S 0.08289f
+C1 G D 0.03749f
+C2 G S 0.03749f
+C3 S B 0.20879f
+C4 D B 0.20879f
+C5 G B 0.54986f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_Y643G8 B D0 G0 S1 G1 D2 G2 S3 G3 a_487_n886# VSUBS
+X0 D2 G1 S1 B sky130_fd_pr__pfet_01v8 ad=1.2325 pd=8.79 as=1.2325 ps=8.79 w=8.5 l=1
+X1 S3 G2 D2 B sky130_fd_pr__pfet_01v8 ad=1.2325 pd=8.79 as=1.2325 ps=8.79 w=8.5 l=1
+X2 S1 G0 D0 B sky130_fd_pr__pfet_01v8 ad=1.2325 pd=8.79 as=2.465 ps=17.58 w=8.5 l=1
+X3 a_487_n886# G3 S3 B sky130_fd_pr__pfet_01v8 ad=2.465 pd=17.58 as=1.2325 ps=8.79 w=8.5 l=1
+C0 D0 S1 0.46486f
+C1 B S1 0.02835f
+C2 G3 G2 0.0619f
+C3 B G1 0.26741f
+C4 a_487_n886# S3 0.46486f
+C5 G2 D2 0.18709f
+C6 G1 S1 0.18709f
+C7 B S3 0.02835f
+C8 G3 a_487_n886# 0.18709f
+C9 G3 B 0.29387f
+C10 G2 B 0.26741f
+C11 B D2 0.02835f
+C12 D0 G0 0.18709f
+C13 G2 G1 0.0619f
+C14 B G0 0.29387f
+C15 D2 S1 0.46486f
+C16 G1 D2 0.18709f
+C17 G3 S3 0.18709f
+C18 G0 S1 0.18709f
+C19 G1 G0 0.0619f
+C20 G2 S3 0.18709f
+C21 a_487_n886# B 0.57037f
+C22 D2 S3 0.46486f
+C23 D0 B 0.57037f
+C24 S3 VSUBS 0.24229f
+C25 D2 VSUBS 0.24229f
+C26 S1 VSUBS 0.24229f
+C27 D0 VSUBS 0.43978f
+C28 G3 VSUBS 0.24826f
+C29 G2 VSUBS 0.23206f
+C30 G1 VSUBS 0.23206f
+C31 G0 VSUBS 0.24826f
+C32 B VSUBS 9.63165f
+C33 a_487_n886# VSUBS 0.43978f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NJE3FD B D0 G0 S1 G1 a_229_n619#
+X0 S1 G0 D0 B sky130_fd_pr__nfet_01v8 ad=0.9425 pd=6.79 as=1.885 ps=13.58 w=6.5 l=1
+X1 a_229_n619# G1 S1 B sky130_fd_pr__nfet_01v8 ad=1.885 pd=13.58 as=0.9425 ps=6.79 w=6.5 l=1
+C0 G0 S1 0.14435f
+C1 G0 G1 0.05942f
+C2 G1 S1 0.14435f
+C3 a_229_n619# S1 0.35573f
+C4 G0 D0 0.14435f
+C5 S1 D0 0.35573f
+C6 G1 a_229_n619# 0.14435f
+C7 S1 B 0.21619f
+C8 D0 B 0.78261f
+C9 G1 B 0.53248f
+C10 G0 B 0.53248f
+C11 a_229_n619# B 0.78261f
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_EWHW6L C2 C1 VSUBS
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=7.5 w=7.5
+X1 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=7.5 w=7.5
+C0 C1 C2 11.391f
+C1 C1 VSUBS 1.30059f
+C2 C2 VSUBS 4.96609f
+.ends
+
+.subckt x2OTA vdd plus out minus ibias vss
+XXM1 vdd XM3/D vdd XM3/D vss sky130_fd_pr__pfet_01v8_Z6Q36G
+XXM3 vss XM3/D XM4/S minus sky130_fd_pr__nfet_01v8_59R9RF
+XXM4 vss XM4/D XM4/S plus sky130_fd_pr__nfet_01v8_59R9RF
+XXM5 vss ibias vss ibias sky130_fd_pr__nfet_01v8_GHSHTY
+Xsky130_fd_pr__nfet_01v8_GHSHTY_0 vss XM4/S vss ibias sky130_fd_pr__nfet_01v8_GHSHTY
+XXM7 vdd out XM4/D vdd XM4/D out XM4/D vdd XM4/D out vss sky130_fd_pr__pfet_01v8_Y643G8
+XXM8 vss out ibias vss ibias out sky130_fd_pr__nfet_01v8_NJE3FD
+XXC1 XM4/D out vss sky130_fd_pr__cap_mim_m3_1_EWHW6L
+XXC2 XM4/D out vss sky130_fd_pr__cap_mim_m3_1_EWHW6L
+Xsky130_fd_pr__pfet_01v8_Z6Q36G_0 vdd XM4/D vdd XM3/D vss sky130_fd_pr__pfet_01v8_Z6Q36G
+C0 XM4/D plus 0.67664f
+C1 XM4/D XM4/S 0.44107f
+C2 vdd minus 0
+C3 ibias plus 0.05126f
+C4 ibias XM4/S 0.11163f
+C5 vdd plus 0.02031f
+C6 vdd XM4/S 0.01114f
+C7 XM3/D out 0.06156f
+C8 XM3/D minus 0.05353f
+C9 out minus 0.01114f
+C10 ibias XM4/D 0.76096f
+C11 plus XM3/D 0.00231f
+C12 XM4/S XM3/D 0.05971f
+C13 vdd XM4/D 1.79937f
+C14 plus out 0.8761f
+C15 XM4/S out 0.01406f
+C16 vdd ibias 0.00556f
+C17 plus minus 0.01011f
+C18 XM4/S minus 0.06292f
+C19 XM4/S plus 0.19055f
+C20 XM4/D XM3/D 0.29508f
+C21 XM4/D out 2.73798f
+C22 ibias XM3/D 0.00344f
+C23 ibias out 0.21893f
+C24 vdd XM3/D 0.96016f
+C25 XM4/D minus 0.58843f
+C26 vdd out 3.50623f
+C27 ibias minus 0.01693f
+C28 XM4/D vss 14.14791f
+C29 out vss 10.01075f
+C30 vdd vss 18.22244f
+C31 XM4/S vss 2.18895f
+C32 ibias vss 5.85387f
+C33 plus vss 1.22308f
+C34 XM3/D vss 1.5983f
+C35 minus vss 2.07489f
+.ends
+

@@ -1,0 +1,78 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_Z6Q36G in circuit x2OTA (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_59R9RF in circuit x2OTA (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GHSHTY in circuit x2OTA (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_Y643G8 in circuit x2OTA (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJE3FD in circuit x2OTA (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_EWHW6L in circuit x2OTA (0)(2 instances)
+
+Class x2OTA (0):  Merged 7 parallel devices.
+Class 2OTA (1):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: x2OTA                           |Circuit 2: 2OTA                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (6->3)             |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (6->5)             |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__cap_mim_m3_1 (4->1)          |sky130_fd_pr__cap_mim_m3_1 (4->1)          
+Number of devices: 9                       |Number of devices: 9                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: x2OTA                           |Circuit 2: 2OTA                            
+-------------------------------------------|-------------------------------------------
+plus                                       |plus                                       
+minus                                      |minus                                      
+out                                        |out                                        
+vss                                        |vss                                        
+ibias                                      |ibias                                      
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes x2OTA and 2OTA are equivalent.
+
+Final result: Circuits match uniquely.
+.
