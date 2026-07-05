@@ -48,7 +48,7 @@ value="
 "
 spice_ignore=false}
 C {code_shown.sym} -440 -420 0 0 {name=tb_dcgain only_toplevel=false value="
-.ac dec 100 1 1k
+.ac dec 100 1 1G
 
 .control
 run
