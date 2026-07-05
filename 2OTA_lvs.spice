@@ -1,0 +1,44 @@
+* NGSPICE file created from 2OTA.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_Z6Q36G B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_59R9RF B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_GHSHTY B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_Y643G8 B D0 G0 S1 G1 D2 G2 S3 G3 a_487_n886#
+X0 D2 G1 S1 B sky130_fd_pr__pfet_01v8 ad=1.2325 pd=8.79 as=1.2325 ps=8.79 w=8.5 l=1
+X1 S3 G2 D2 B sky130_fd_pr__pfet_01v8 ad=1.2325 pd=8.79 as=1.2325 ps=8.79 w=8.5 l=1
+X2 S1 G0 D0 B sky130_fd_pr__pfet_01v8 ad=1.2325 pd=8.79 as=2.465 ps=17.58 w=8.5 l=1
+X3 a_487_n886# G3 S3 B sky130_fd_pr__pfet_01v8 ad=2.465 pd=17.58 as=1.2325 ps=8.79 w=8.5 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NJE3FD B D0 G0 S1 G1 a_229_n619#
+X0 S1 G0 D0 B sky130_fd_pr__nfet_01v8 ad=0.9425 pd=6.79 as=1.885 ps=13.58 w=6.5 l=1
+X1 a_229_n619# G1 S1 B sky130_fd_pr__nfet_01v8 ad=1.885 pd=13.58 as=0.9425 ps=6.79 w=6.5 l=1
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_EWHW6L C2 C1
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=7.5 w=7.5
+X1 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=7.5 w=7.5
+.ends
+
+.subckt x2OTA vdd plus out minus ibias vss
+XXM1 vdd XM3/D vdd XM3/D sky130_fd_pr__pfet_01v8_Z6Q36G
+XXM3 vss XM3/D XM4/S minus sky130_fd_pr__nfet_01v8_59R9RF
+XXM4 vss XM4/D XM4/S plus sky130_fd_pr__nfet_01v8_59R9RF
+XXM5 vss ibias vss ibias sky130_fd_pr__nfet_01v8_GHSHTY
+Xsky130_fd_pr__nfet_01v8_GHSHTY_0 vss XM4/S vss ibias sky130_fd_pr__nfet_01v8_GHSHTY
+XXM7 vdd out XM4/D vdd XM4/D out XM4/D vdd XM4/D out sky130_fd_pr__pfet_01v8_Y643G8
+XXM8 vss out ibias vss ibias out sky130_fd_pr__nfet_01v8_NJE3FD
+XXC1 XM4/D out sky130_fd_pr__cap_mim_m3_1_EWHW6L
+XXC2 XM4/D out sky130_fd_pr__cap_mim_m3_1_EWHW6L
+Xsky130_fd_pr__pfet_01v8_Z6Q36G_0 vdd XM4/D vdd XM3/D sky130_fd_pr__pfet_01v8_Z6Q36G
+.ends
+

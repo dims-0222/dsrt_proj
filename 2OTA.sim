@@ -1,0 +1,87 @@
+| units: 500000 tech: sky130A format: MIT
+x XM3/D XM3/D vdd vdd s=17400,716 d=17400,716 l=200 w=300 x=-18503 y=-3951 sky130_fd_pr__pfet_01v8
+x minus XM3/D XM4/S vss s=17400,716 d=17400,716 l=200 w=300 x=-18503 y=-5689 sky130_fd_pr__nfet_01v8
+x plus XM4/D XM4/S vss s=17400,716 d=17400,716 l=200 w=300 x=-17603 y=-5689 sky130_fd_pr__nfet_01v8
+x ibias ibias vss vss s=17400,716 d=17400,716 l=200 w=300 x=-18503 y=-7389 sky130_fd_pr__nfet_01v8
+x ibias XM4/S vss vss s=17400,716 d=17400,716 l=200 w=300 x=-17603 y=-7389 sky130_fd_pr__nfet_01v8
+x XM4/D vdd out vdd s=49300,1758 d=49300,1758 l=200 w=1700 x=-16445 y=-5351 sky130_fd_pr__pfet_01v8
+x XM4/D out vdd vdd s=49300,1758 d=49300,1758 l=200 w=1700 x=-16188 y=-5351 sky130_fd_pr__pfet_01v8
+x XM4/D out vdd vdd s=98600,3516 d=49300,1758 l=200 w=1700 x=-16703 y=-5351 sky130_fd_pr__pfet_01v8
+x XM4/D vdd out vdd s=49300,1758 d=98600,3516 l=200 w=1700 x=-15930 y=-5351 sky130_fd_pr__pfet_01v8
+x ibias out vss vss s=75400,2716 d=37700,1358 l=200 w=1300 x=-16403 y=-7389 sky130_fd_pr__nfet_01v8
+x ibias vss out vss s=37700,1358 d=75400,2716 l=200 w=1300 x=-16146 y=-7389 sky130_fd_pr__nfet_01v8
+x out XM4/D s=3052560,7024 l=1500 w=1500 x=-20959 y=-5300 sky130_fd_pr__cap_mim_m3_1
+x out XM4/D s=3052560,7024 l=1500 w=1500 x=-20959 y=-7199 sky130_fd_pr__cap_mim_m3_1
+x out XM4/D s=3052560,7024 l=1500 w=1500 x=-15259 y=-5300 sky130_fd_pr__cap_mim_m3_1
+x out XM4/D s=3052560,7024 l=1500 w=1500 x=-15259 y=-7199 sky130_fd_pr__cap_mim_m3_1
+x XM3/D XM4/D vdd vdd s=17400,716 d=17400,716 l=200 w=300 x=-17603 y=-3951 sky130_fd_pr__pfet_01v8
+C XM4/D vdd 3.9
+C vdd out 6.5
+C XM4/D out 26.3
+C XM4/D0 14.1
+R XM4/D 4396
+= XM4/D XM7/G3
+= XM4/D XM7/G2
+= XM4/D XM7/G1
+= XM4/D XM7/G0
+= XM4/D sky130_fd_pr__pfet_01v8_Z6Q36G_0/D
+= XM4/D XC2/C2
+= XM4/D XC1/C2
+= XM4/D m1_n17700_n4350#
+R vss 81025
+= vss sky130_fd_pr__pfet_01v8_Z6Q36G_0/VSUBS
+= vss XM1/VSUBS
+= vss XC2/VSUBS
+= vss XM8/B
+= vss XM8/S1
+= vss XM7/VSUBS
+= vss XM5/S
+= vss XM4/B
+= vss sky130_fd_pr__nfet_01v8_GHSHTY_0/S
+= vss sky130_fd_pr__nfet_01v8_GHSHTY_0/B
+= vss li_n17600_n7010#
+= vss XM5/B
+= vss VSUBS
+= vss XM3/B
+= vss li_n18500_n7010#
+= vss XC1/VSUBS
+C out0 10.7
+R out 26808
+= out XC2/C1
+= out XC1/C1
+= out XM7/a_487_n886#
+= out XM7/D2
+= out XM7/D0
+= out XM8/a_229_n619#
+= out XM8/D0
+C vdd0 18.2
+R vdd 61639
+= vdd XM7/B
+= vdd XM1/S
+= vdd sky130_fd_pr__pfet_01v8_Z6Q36G_0/S
+= vdd sky130_fd_pr__pfet_01v8_Z6Q36G_0/B
+= vdd XM1/B
+= vdd XM7/S3
+= vdd XM7/S1
+C XM4/S0 2.3
+R XM4/S 2817
+= XM4/S XM3/S
+= XM4/S sky130_fd_pr__nfet_01v8_GHSHTY_0/D
+= XM4/S m1_n18300_n6450#
+C ibias0 6.3
+R ibias 2368
+= ibias XM8/G1
+= ibias XM8/G0
+= ibias sky130_fd_pr__nfet_01v8_GHSHTY_0/G
+= ibias XM5/G
+= ibias XM5/D
+R plus 177
+= plus XM4/G
+R XM3/D 2450
+= XM3/D sky130_fd_pr__pfet_01v8_Z6Q36G_0/G
+= XM3/D XM1/D
+= XM3/D XM1/G
+= XM3/D m1_n18600_n3600#
+C minus0 2.1
+R minus 179
+= minus XM3/G

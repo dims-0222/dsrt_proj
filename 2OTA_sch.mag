@@ -1,0 +1,86 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1780234473
+<< checkpaint >>
+rect 4552 2238 9004 2258
+rect 3702 1148 9004 2238
+rect 3702 198 9180 1148
+rect 3702 -2002 10936 198
+rect 4552 -4062 10936 -2002
+rect 6484 -6122 10936 -4062
+<< error_s >>
+rect 936 297 971 331
+rect 937 278 971 297
+rect 956 -335 971 278
+rect 990 244 1025 278
+rect 1475 244 1510 261
+rect 990 -335 1024 244
+rect 1476 243 1510 244
+rect 1476 207 1546 243
+rect 1493 173 1564 207
+rect 2014 173 2049 207
+rect 990 -369 1005 -335
+rect 1493 -388 1563 173
+rect 2015 154 2049 173
+rect 1493 -424 1546 -388
+rect 2034 -441 2049 154
+rect 2068 120 2103 154
+rect 2553 120 2588 154
+rect 2068 -441 2102 120
+rect 2554 101 2588 120
+rect 2068 -475 2083 -441
+rect 2573 -494 2588 101
+rect 2607 67 2642 101
+rect 3092 67 3127 101
+rect 3685 84 3719 102
+rect 2607 -494 2641 67
+rect 3093 48 3127 67
+rect 2607 -528 2622 -494
+rect 3112 -547 3127 48
+rect 3146 14 3181 48
+rect 3146 -547 3180 14
+rect 3146 -581 3161 -547
+rect 3649 -600 3719 84
+rect 3649 -636 3702 -600
+use sky130_fd_pr__cap_mim_m3_1_V9Y9G4  XC1
+timestamp 0
+transform 1 0 6778 0 1 -902
+box -966 -1900 966 1900
+use sky130_fd_pr__cap_mim_m3_1_V9Y9G4  XC2
+timestamp 0
+transform 1 0 8710 0 1 -2962
+box -966 -1900 966 1900
+use sky130_fd_pr__pfet_01v8_6KTLMV  XM1
+timestamp 0
+transform 1 0 711 0 1 -2
+box -296 -369 296 369
+use sky130_fd_pr__pfet_01v8_6KTLMV  XM2
+timestamp 0
+transform 1 0 1250 0 1 -55
+box -296 -369 296 369
+use sky130_fd_pr__nfet_01v8_F93EH4  XM3
+timestamp 0
+transform 1 0 1789 0 1 -117
+box -296 -360 296 360
+use sky130_fd_pr__nfet_01v8_F93EH4  XM4
+timestamp 0
+transform 1 0 2328 0 1 -170
+box -296 -360 296 360
+use sky130_fd_pr__nfet_01v8_F93EH4  XM5
+timestamp 0
+transform 1 0 2867 0 1 -223
+box -296 -360 296 360
+use sky130_fd_pr__nfet_01v8_F93EH4  XM6
+timestamp 0
+transform 1 0 3406 0 1 -276
+box -296 -360 296 360
+use sky130_fd_pr__pfet_01v8_ZQ8LT7  XM7
+timestamp 0
+transform 1 0 4332 0 1 380
+box -683 -1069 683 1069
+use sky130_fd_pr__nfet_01v8_YT9HN8  XM8
+timestamp 0
+transform 1 0 5387 0 1 118
+box -425 -860 425 860
+<< end >>
