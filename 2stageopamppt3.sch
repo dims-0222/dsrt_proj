@@ -179,7 +179,9 @@ value=".lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .param mc_mm_switch=0
 .param mc_pr_switch=1
 "}
+
 C {isource.sym} 370 -340 0 0 {name=I0 value=20u}
+
 C {vsource.sym} 120 -380 0 0 {name=V1 value="0 AC 1" savecurrent=false}
 C {vsource.sym} 60 -380 2 0 {name=V2 value="0 AC 1" savecurrent=false}
 C {vsource.sym} 90 -300 0 0 {name=V3 value=1.2 savecurrent=false}
@@ -253,8 +255,13 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {/foss/pdks/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} 390 -220 0 1 {name=M5
+<<<<<<< HEAD:2stageopamp.sch
 W=0.75
 L=0.5
+=======
+W=14
+L=1.05
+>>>>>>> main:2stageopamppt3.sch
 nf=1 
 mult=1
 ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
@@ -267,8 +274,13 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {/foss/pdks/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} 690 -220 0 0 {name=M6
+<<<<<<< HEAD:2stageopamp.sch
 W=0.75
 L=0.5
+=======
+W=14
+L=1.05
+>>>>>>> main:2stageopamppt3.sch
 nf=1 
 mult=1
 ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
